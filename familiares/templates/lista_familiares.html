@@ -9,7 +9,10 @@
 <body>
   Lista de familiares:
   {% for familia in familiares %}
-  <p>{{ familia.nombre }}</p>
+  <p>Nombre: {{ familia.nombre }}<br>
+  Fecha de nacimiento: {{ familia.fecha_nacimiento }}<br>
+  Altura en CM: {{ familia.altura }}<br> </p>
   {% endfor %}
+
 </body>
 </html>
